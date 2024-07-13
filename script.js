@@ -97,7 +97,7 @@ function myMenuFunction(){
       sectionId = current.getAttribute('id')
   
     if(scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
-  
+   
         document.querySelector('.nav-menu a[href*=' + sectionId + ']').classList.add('active-link')
   
     }  else {
